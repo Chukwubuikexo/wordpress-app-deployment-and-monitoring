@@ -1,5 +1,8 @@
 
-# Step-By-Step Guide
+## Step-By-Step Guide
+
+# Overview 
+This project automates the deployment of a WordPress application using Dokku (a self-hosted PaaS) on a local WSL/Ubuntu environment, with CI/CD pipelines, monitoring via Prometheus/Grafana, and security hardening.
 
 ## Step 1: Initial Setup
 
@@ -102,7 +105,8 @@ ping devops.s14.local
 8. **Deploy WordPress via Dockerfile**  
    Add WordPress app to the Dockerfile to enable Dokku access.
 
-## Errors i encounter in  Step 2: Dokku Installation and Configuration
+# Errors I encountered in  Step 2:
+#Dokku Installation and Configuration
 
 1. **Git Error: Initializing Git Repository**  
    Error:  
